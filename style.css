@@ -1,0 +1,148 @@
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 15px;
+    background-color: #FFD900;
+}
+#sec1 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50vw;
+    margin-left: -15px;
+    justify-content: center;
+    height: 400px;
+}
+
+#desc {
+    text-align: center;
+    background-color: #514988;
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 32px;
+    padding-bottom: 30px;
+    height: 400px;
+}
+
+#titulo {
+    margin: 5px;
+    color: #FFD900;
+    font-size: 40px;
+}
+
+#data {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#conteudo {
+    width: 80%;
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 20pt;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+#ladovideo {
+    width: 99%;
+}
+
+#countdown {
+    display: flex;
+    grid-auto-flow: column;
+    text-align: center;
+    background-color: white;
+    padding-right: 12%;
+}
+
+.cd-item {
+    color: #514988;
+    font-size: 38px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-grow: 1;
+}
+
+#subtitulo {
+    background-color: white;
+    color: #E33381;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    width: auto;
+}
+
+#video {
+    margin-bottom: -15px;
+    margin-top: -15px;
+    background-color: white;
+    height: 400px;
+    width: 95%;
+    padding: 10px 10px 10px 10px;
+}
+
+#compre {
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow:column;
+    background-color: white;
+    padding-left: 3%;
+    padding-bottom: 80px;
+}
+
+#ingressos {
+    margin-left: 20px;
+    width: 100%;
+    padding-left: 0;
+}
+
+.img_ingressos {
+   width: 18%
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#subtitulo-ing {
+    color: #FFD900;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+#botao-compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60px;
+    padding-right: 170px;
+    padding-top: 40px;
+}
+
+button {
+    background-color: #514988;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    /*margin: 30px;*/
+    width: 350px;
+    height: 90px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #FFD900;
+}
